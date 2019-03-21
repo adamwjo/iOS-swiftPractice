@@ -41,11 +41,17 @@
                                     <action selector="LoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ezk-C8-vXc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwO-aH-FDk">
+                                <rect key="frame" x="152" y="365" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="dumbButton" destination="rwO-aH-FDk" id="ejk-KC-JOj"/>
                         <outlet property="emailInput" destination="x2s-IW-FzG" id="Pdg-9m-nzD"/>
                         <outlet property="passwordInput" destination="Wg0-HR-Dre" id="tGe-WD-CK6"/>
                     </connections>
